@@ -1,0 +1,59 @@
+PerformanceFrequency: 1948750
+StartCount: 613708048433
+Hello World!
+argc: 12
+1:-program
+3:-resource
+5:-resolution
+8:-fd
+Emulator connected.
+10:-id
+fmt->BitsPerPixel: 32
+AddFontResourceEx: 2 faces added.
+InitVM .. 
+LoadVM
+maxCustomEventSize: 0x30
+Head.DataSize: 0x100000
+Head.StackSize: 0x20000
+Head.HeapSize: 0x80000
+Head.EntryPoint: 0x11b13
+Head.CodeLen: 0x32eef
+CODE_SEGMENT_SIZE: 0x40000
+Head.DataLen: 0x41ec
+Head.DataSize: 0x100000
+DATA_SEGMENT_SIZE: 0x100000
+Head.IntLen: 0x49c
+Type 4, size 17205
+Type 4, size 10460
+Type 4, size 15938
+Type 2, size 3023
+Type 2, size 3003
+ResLoad complete
+IDL version match!
+Memory reference validation failed. Size 4, address 0x0
+BFE in ..\..\..\core\Core.cpp @ line 1050
+ErrorExit 40053
+MoSync Panic 40053
+
+"Attempted to access null pointer."
+
+The panic occurred in the MoSync core.
+DumpCallStackEx:
+reportCallStack
+0
+IP: 0x1af4
+Call stack: 7 frames
+0: 0x11b3c
+1: 0x2dcc
+2: 0x1264d
+3: 0x1cefc
+4: 0xdcc
+5: 0xc07
+6: 0x1c50
+Exit @ IP 0x1af4  SP 0xffe34
+InstCount: 6800120
+IP: 0x11B13
+Profile dumped.
+level: 7
+maxLevel: 16
+nodes: 1858
